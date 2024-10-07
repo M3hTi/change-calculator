@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    background-color: #ffdb77;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+.input-group {
+    margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+input {
+    width: 100px;
+}
+.change-breakdown {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.bills, .coins {
+    width: 45%;
+}
+.denomination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.denomination input {
+    width: 30px;
+}
